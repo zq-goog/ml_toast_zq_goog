@@ -250,7 +250,7 @@ class TopicClustererHdbscan(topic_clusterer.TopicClusterer):
     linear_transformation_model.fit(
         input_data, target_data, epochs=50, verbose=0)
 
-    batch_size = 1000
+    batch_size = 50
     cluster_predictions = []
     prediction_scores = []
 
